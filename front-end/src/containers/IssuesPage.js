@@ -13,21 +13,19 @@ class IssuesPage extends Component {
     componentDidMount() {
       axios.get('https://api.github.com/repos/angular/angular/issues')
       .then(response => {
-        this.setState({ issues: response.data});
+        this.setState({ issues: response.data });
         console.log(response);
       })
     }
 
     render () {
 
-        const issues = this.state.issues.map(
-          issue => { 
+        const issues = this.state.issues.map(issue => {
             return <Issue 
                   key={issue.number} 
                   title={issue.title}
                   body={issue.body}
-                  user={issue.user.login}
-                  assignee={issue.assignee}/>
+                  user={issue.user.login}/>
           }
         );
 
