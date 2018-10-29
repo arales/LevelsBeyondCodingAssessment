@@ -9,3 +9,5 @@ The implementation for the backend and front end of the coding assessment can be
          + Pagination for repository issue page.
          + Improved styling for Issue descriptions.
          + Markdown interpretor for issue body for more easily readable issue body text.
+         
+Designed and implemented by Anthony Ales.
