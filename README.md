@@ -1,4 +1,4 @@
-The implementation for the backend and front end of the coding assessment can be found in the folders name appropriately for each task. Please follow the user guides named **'How-to-use'** which can be found in both of the task folders and offer directions for how to run the server for each task implementation.
+The implementation for the backend and front end of the coding assessment can be found in the folders name appropriately for each task. Please follow the user guides named **'How-to-use'** which can be found in both of the task folders. The user guide files offer directions for how to run the server for each task implementation.
 
 ## Future Enhancements:  
 
