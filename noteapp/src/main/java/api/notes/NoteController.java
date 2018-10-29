@@ -83,7 +83,6 @@ class NoteController {
   @RequestMapping(value = "API_DIRECTORY" , method = RequestMethod.GET)
   public List<Note> findByBody(@RequestParam("val") String val) {
     List<Note> notes = repository.findAll();
-    System.out.println("A;KLSJDF;LAKSJDF;LKJASF")
     System.out.println(notes.toString());
     return repository.findAll();
   }
