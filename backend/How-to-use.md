@@ -2,8 +2,10 @@ This API server runs on **localhost:8080** by default. Please be sure to include
 
 ## Running the server API:
 
-Use either of the following commands to start the API server:
+1) Use either of the following commands to start the API server:
 
-    1) java -jar backend.jar
+    * java -jar backend.jar
 
-    2) mvn spring-boot:run 
+    * mvn spring-boot:run 
+
+2) Navigate to [http://localhost:8080/api/notes](http://localhost:8080/api/notes) in your browser.
