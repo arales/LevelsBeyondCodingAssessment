@@ -10,4 +10,4 @@ Start the application with the following command:
 
     npm start
 
-If the commands above do not automatically navigate your browser to this page, please manually enter "localhost:3000" in to your browser to load the application.
+If the commands above do not automatically navigate your browser to this page, please manually enter [localhost:3000](http://localhost3000) in to your browser to load the application.
